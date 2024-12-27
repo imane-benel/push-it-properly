@@ -1,0 +1,32 @@
+.thad{
+   color:white;
+    background-color:DarkBlue;
+   font-family:verdana;
+   font-size:18pt;
+    align-items:center;
+	
+   }
+   table {
+    border-collapse: collapse;
+}
+   .photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+  .identif{
+	color: gray;
+    text-align: left;
+    font-size: 14px;
+    padding: 5px 0;
+	  
+  }
+  .resp{
+	 color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+ 

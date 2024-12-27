@@ -1,0 +1,222 @@
+/* Styles généraux */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('nature.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Conteneur principal */
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Section du profil */
+.profile-section {
+    margin-bottom: 30px;
+}
+
+.profile-section .photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.profile-section h1 {
+    font-size: 2.5rem;
+    margin: 15px 0 5px;
+}
+
+.profile-section h2 {
+    font-size: 1.2rem;
+    color: #f39c12;
+}
+
+/* Section des objectifs */
+.goal-section {
+    margin: 30px 0;
+}
+
+.goal-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+    display: inline-block;
+}
+
+.goal-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #dfe6e9;
+}
+
+/* Section des informations */
+.info-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.info-section li {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.info-section strong {
+    color: #1abc9c;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Section About Me */
+.about-me-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-me-section h2 {
+    font-size: 2rem;
+    color: #00bcd4;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.about-me-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-me-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-me-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.about-me-text h3 {
+    color: #f39c12;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.about-me-text p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.about-me-text .highlight-text {
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+/* Statistiques des projets */
+.project-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.stat {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+}
+
+.stat h3 {
+    color: #f39c12;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Experience and Education Section */
+.experience-education-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+}
+
+.experience, .education {
+    width: 45%;
+}
+
+.experience h2, .education h2 {
+    font-size: 2rem;
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.year {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.details p {
+    font-size: 1rem;
+    color: #bbb;
+    margin: 5px 0;
+}
+
+.details span {
+    font-size: 1rem;
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.role {
+    background-color: #f39c12;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
